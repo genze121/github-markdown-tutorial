@@ -6,10 +6,15 @@ Headings
 Just like HTML, Markdown has six levels of headings. Headings in Markdown are created by putting one to six # in front of your heading text with a space separating the # and text. Each # represents a heading level with # being the largest heading and ###### being the smallest heading. Here is an example of all six heading levels.
 
 # heading1
+
 ## heading2
+
 ### heading3
+
 #### heading4
+
 ##### heading5
+
 ###### heading6
 
 ## To add paragraphs
@@ -18,16 +23,15 @@ Paragraphs in Markdown are the default text layout. If you just type text it wil
 
 ## To add italics
 
-1) Way no 1 ==> _Italics Text_
+1. Way no 1 ==> _Italics Text_
 
-2) Way no 2 ==> *Italics Text*
+2. Way no 2 ==> _Italics Text_
 
 ## To add bold
 
-1) Way no 1 ==> **Bold Text**
+1. Way no 1 ==> **Bold Text**
 
-2) Way no 2 ==> __Bold Text__
-
+2. Way no 2 ==> **Bold Text**
 
 ## To add strike-through
 
@@ -54,21 +58,20 @@ Paragraphs in Markdown are the default text layout. If you just type text it wil
 ## To add tables
 
 | Name | Age | Address |
-|------|-----|---------|
-| John | 25 | USA|
-| Anna | 30 | UK |
+| ---- | --- | ------- |
+| John | 25  | USA     |
+| Anna | 30  | UK      |
 
 ## Alignment of tables
 
-1) Left ==> :-----
-2) Center ==> :-----:
-3) Right ==> -------:
+1. Left ==> :-----
+2. Center ==> :-----:
+3. Right ==> -------:
 
-|Name | Age | Address|
-| :----- | :----: | -----: |
-|John | 25 | USA|
-|Anna | 30 | UK |
-
+| Name | Age | Address |
+| :--- | :-: | ------: |
+| John | 25  |     USA |
+| Anna | 30  |      UK |
 
 ## To add horizontal line
 
@@ -79,7 +82,7 @@ Paragraphs in Markdown are the default text layout. If you just type text it wil
 
 > This is a blockquote text.
 
->> This is another blockquote text.
+> > This is another blockquote text.
 
 ## To add dot
 
@@ -92,17 +95,15 @@ Paragraphs in Markdown are the default text layout. If you just type text it wil
 1. List one
 2. List two
 3. List three
-    - List four
-    - List five
+   - List four
+   - List five
 
 ## Using code in the markdown
 
 1. JavaScript Code Snippet
 
 ```js
-
 console.log("Hello World");
-
 ```
 
 2. Java Code Snippet
@@ -136,42 +137,35 @@ select * from user_table where username = "Hello World";
 5. HTML Code Snippet
 
 ```html
-
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta name="description" content="This is a HTML Code snippet">
+  <head>
+    <meta name="description" content="This is a HTML Code snippet" />
     <title>Hello World</title>
-</head>
+  </head>
 
-<body>
-
-    <h1> Hello World </h1>
-    <p> This is a HTML document. </p>
-
-</body>
-
+  <body>
+    <h1>Hello World</h1>
+    <p>This is a HTML document.</p>
+  </body>
 </html>
-
 ```
 
 6. CSS Code Snippet
 
 ```css
-
-h1{
-    background-color : aqua;
-    font-weight : 700;
-    font-size : 20px;
-    color : red;
-    line-height : 1rem;
-    padding : 1rem 1rem;
-    margin : 1rem 1rem;
-    border : 1px solid black;
-    border-radius : 15px;
-    box-shadow : 0 0 3px 3px;
+h1 {
+  background-color: aqua;
+  font-weight: 700;
+  font-size: 20px;
+  color: red;
+  line-height: 1rem;
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 3px 3px;
 }
-
 ```
 
 7. Git Snippet
@@ -195,38 +189,32 @@ git logs
 8. JSON Snippet
 
 ```json
-
 {
-    "name": "John Doe",
-    "age": 30,
-    "city": "New York",
-    "isManager": false,
-    "isEmployee": true,
-    "hobbies": ["cricket","chess","football"],
-    "address": {
-        "street": "123 Main St",
-        "state": "karnataka",
-        "pincode": 12345
-    }
+  "name": "John Doe",
+  "age": 30,
+  "city": "New York",
+  "isManager": false,
+  "isEmployee": true,
+  "hobbies": ["cricket", "chess", "football"],
+  "address": {
+    "street": "123 Main St",
+    "state": "karnataka",
+    "pincode": 12345
+  }
 }
-
 ```
 
 9. React Snippet
 
 ```js
-
-const [counter,setCounter] = useState(0);
+const [counter, setCounter] = useState(0);
 
 return (
-    <>
-      <p>Welcome To React: {counter}</p>
-      <Button onClick={()=> setCounter(counter+1)}>
-         Click Me
-      </Button>
-    </>
-)
-
+  <>
+    <p>Welcome To React: {counter}</p>
+    <Button onClick={() => setCounter(counter + 1)}>Click Me</Button>
+  </>
+);
 ```
 
 ## To add highlighter in markdown
@@ -239,35 +227,32 @@ return (
 
 - `Subscript`
 
-    1) Way No 1 ==> H<sub>2</sub>O
+  1. Way No 1 ==> H<sub>2</sub>O
 
-    2) Way No 2 ==> H~2~0
+  2. Way No 2 ==> H~2~0
 
 - `Superscript`
 
-    1) Way No 1 ==> 2<sup>2</sup> = 4
+  1. Way No 1 ==> 2<sup>2</sup> = 4
 
-    2) Way No 2 ==> 2^2 = 4
+  2. Way No 2 ==> 2^2 = 4
 
 ## To add emoji
 
-1) Way No 1 ==> ⚙️🧑‍💻🕸️
+1. Way No 1 ==> ⚙️🧑‍💻🕸️
 
-2) Way No 2 ==> :joy: :smile:
+2. Way No 2 ==> :joy: :smile:
 
 ## Inline code
 
 This is a `for` loop example
 
 ```js
-
 // for loop example using js code.
 
-for(let i=1;i<=10;i++){
-    console.log(i);
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
 }
-
-
 ```
 
 ## Expand - Collapse
@@ -275,11 +260,11 @@ for(let i=1;i<=10;i++){
 <details>
   <summary> Programming Languages </summary>
 
-   - Java
-   - JavaScript
-   - Python
-   - C#
-   - Go
+- Java
+- JavaScript
+- Python
+- C#
+- Go
 </details>
 
 ## Checkbox Type Standard
@@ -287,3 +272,38 @@ for(let i=1;i<=10;i++){
 - [x] Checked
 - [ ] Unchecked
 
+## Alerts in markdown
+
+> [!Note]
+> Highlights information that users should take into account, even when skimming.
+
+> [!Tip]
+> Optional information to help a user be more successful.
+
+> [!Important]
+> Crucial information necessary for users to succeed.
+
+> [!Caution]
+> Negative potential consequences of an action.
+
+> [!Warning]
+> Critical content demanding immediate user attention due to potential risks.
+
+
+## Diff Code Blocks
+
+```diff
+- var userName = 'GitHub';
+
++ const userName = 'Git';
+
+```
+
+## <mark style="color:red">Next Line</mark>
+
+This is a  
+markdown example.
+
+
+> [!Important]
+> “Markdown itself is minimal, but platforms like GitHub add powerful semantics such as alerts, collapsible sections, and task lists.”
