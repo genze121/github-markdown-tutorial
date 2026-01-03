@@ -233,7 +233,7 @@ return (
 
 1. Way No 1 ==> <mark> Highlighted Text </mark>
 
-2. Way No 2 ==> == Highlighted Text ==
+2. Way No 2 ==> ==Highlighted Text==
 
 ## To add subscript and superscript
 
