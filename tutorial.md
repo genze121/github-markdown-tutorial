@@ -72,8 +72,8 @@ Paragraphs in Markdown are the default text layout. If you just type text it wil
 
 ## To add horizontal line
 
-1. <hr>
-2. ----
+    1. <hr>
+    2. ----
 
 ## To add blockquote
 
@@ -231,7 +231,9 @@ return (
 
 ## To add highlighter in markdown
 
-<mark> Highlighted Text </mark>
+1. Way No 1 ==> <mark> Highlighted Text </mark>
+
+2. Way No 2 ==> == Highlighted Text ==
 
 ## To add subscript and superscript
 
@@ -251,7 +253,7 @@ return (
 
 1) Way No 1 ==> ⚙️🧑‍💻🕸️
 
-2) Way No 2 ==> :joy:, :smile:
+2) Way No 2 ==> :joy: :smile:
 
 ## Inline code
 
