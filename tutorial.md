@@ -1,10 +1,6 @@
-## Github Markdown Tutorial
-
----
+## `Github Markdown Tutorial`
 
 ## To add Headings
-
----
 
 Headings
 Just like HTML, Markdown has six levels of headings. Headings in Markdown are created by putting one to six # in front of your heading text with a space separating the # and text. Each # represents a heading level with # being the largest heading and ###### being the smallest heading. Here is an example of all six heading levels.
@@ -16,76 +12,51 @@ Just like HTML, Markdown has six levels of headings. Headings in Markdown are cr
 ##### heading5
 ###### heading6
 
----
-
 ## To add paragraphs
-
----
 
 Paragraphs in Markdown are the default text layout. If you just type text it will automatically be converted to a paragraph. The only important thing to know about Markdown is that if you want to seperate text into two seperate paragraphs you need to add a blank line between each set of text. If you instead just want to have a new line within your paragraph you can add two spaces at the end of the line and it will be converted to a new line.
 
----
-
 ## To add italics
-
----
 
 1) Way no 1 ==> _Italics Text_
 
 2) Way no 2 ==> *Italics Text*
 
----
-
 ## To add bold
-
----
 
 1) Way no 1 ==> **Bold Text**
 
 2) Way no 2 ==> __Bold Text__
 
----
 
-## To add strikethrough
-
----
+## To add strike-through
 
 ~~Strike Text~~
 
 ~~1000~~ 900
 
----
-
-To add a website link
+## To add a website link
 
 [Visit my website](https://w3schools.com)
 
-To add tooltip in the website link
+`To add tooltip in the website link`
 
 [Welcome](https://w3schools.com "W3Schools")
 
----
-
 ## To add images
-
----
 
 ![Alt](https://www.w3schools.com/favicon.ico)
 
-To add tooltip in the images
+`To add tooltip in the images`
 
 ![Alt](https://www.w3schools.com/favicon.ico "W3Schools")
 
----
-
 ## To add tables
-
----
 
 | Name | Age | Address |
 |------|-----|---------|
-|John | 25 | USA|
-|Anna | 30 | UK |
+| John | 25 | USA|
+| Anna | 30 | UK |
 
 ## Alignment of tables
 
@@ -98,38 +69,25 @@ To add tooltip in the images
 |John | 25 | USA|
 |Anna | 30 | UK |
 
----
 
 ## To add horizontal line
 
 1. <hr>
 2. ----
 
----
-
 ## To add blockquote
-
----
 
 > This is a blockquote text.
 
 >> This is another blockquote text.
 
----
-
 ## To add dot
-
----
 
 - This is a dot 1.
 - This is a dot 2.
 - This is a dot 3.
 
----
-
 ## Lists in markdown
-
----
 
 1. List one
 2. List two
@@ -137,11 +95,7 @@ To add tooltip in the images
     - List four
     - List five
 
----
-
 ## Using code in the markdown
-
----
 
 1. JavaScript Code Snippet
 
@@ -248,7 +202,7 @@ git logs
     "city": "New York",
     "isManager": false,
     "isEmployee": true,
-    "hobbies": ["cricket","chess","footbal"],
+    "hobbies": ["cricket","chess","football"],
     "address": {
         "street": "123 Main St",
         "state": "karnataka",
@@ -258,30 +212,46 @@ git logs
 
 ```
 
+9. React Snippet
+
+```js
+
+const [counter,setCounter] = useState(0);
+
+return (
+    <>
+      <p>Welcome To React: {counter}</p>
+      <Button onClick={()=> setCounter(counter+1)}>
+         Click Me
+      </Button>
+    </>
+)
+
+```
+
 ## To add highlighter in markdown
 
----
 <mark> Highlighted Text </mark>
-
----
 
 ## To add subscript and superscript
 
----
+- `Subscript`
 
-H<sub>2</sub>O
+    1) Way No 1 ==> H<sub>2</sub>O
 
-2<sup>2</sup> = 4
+    2) Way No 2 ==> H~2~0
 
----
+- `Superscript`
+
+    1) Way No 1 ==> 2<sup>2</sup> = 4
+
+    2) Way No 2 ==> 2^2 = 4
 
 ## To add emoji
 
----
+1) Way No 1 ==> ⚙️🧑‍💻🕸️
 
-⚙️🧑‍💻🕸️
-
----
+2) Way No 2 ==> :joy:, :smile:
 
 ## Inline code
 
@@ -297,4 +267,21 @@ for(let i=1;i<=10;i++){
 
 
 ```
+
+## Expand - Collapse
+
+<details>
+  <summary> Programming Languages </summary>
+
+   - Java
+   - JavaScript
+   - Python
+   - C#
+   - Go
+</details>
+
+## Checkbox Type Standard
+
+- [x] Checked
+- [ ] Unchecked
 
