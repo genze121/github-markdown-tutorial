@@ -307,3 +307,9 @@ markdown example.
 
 > [!Important]
 > “Markdown itself is minimal, but platforms like GitHub add powerful semantics such as alerts, collapsible sections, and task lists.”
+
+## Badges
+
+![Github Repo]( https://img.shields.io/badge/github-repo-blue?logo=github)
+
+![Javascript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
