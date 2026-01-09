@@ -299,6 +299,17 @@ for (let i = 1; i <= 10; i++) {
 
 ```
 
+
+```diff
+
+@@ Authentication @@
+
+- Password stored in plain text
+
++ Password hashed using bcrypt
+
+```
+
 ## <mark style="color:red">Next Line</mark>
 
 This is a  
@@ -313,3 +324,13 @@ markdown example.
 ![Github Repo]( https://img.shields.io/badge/github-repo-blue?logo=github)
 
 ![Javascript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
+
+## Representing codebase using `code` in markdown
+
+```code
+
+console.log("Hello JavScript");
+
+print("Hello Python");
+
+```
