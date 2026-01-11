@@ -19,27 +19,31 @@ Just like HTML, Markdown has six levels of headings. Headings in Markdown are cr
 
 ## To add paragraphs
 
-Paragraphs in Markdown are the default text layout. If you just type text it will automatically be converted to a paragraph. The only important thing to know about Markdown is that if you want to seperate text into two seperate paragraphs you need to add a blank line between each set of text. If you instead just want to have a new line within your paragraph you can add two spaces at the end of the line and it will be converted to a new line.
+Paragraphs in Markdown are the default text layout. If you just type text it will automatically be converted to a paragraph. The only important thing to know about Markdown is that if you want to separate text into two separate paragraphs you need to add a blank line between each set of text. If you instead just want to have a new line within your paragraph you can add two spaces at the end of the line and it will be converted to a new line.
 
 ## To add italics
 
 1. Way no 1 ==> _Italics Text_
 
-2. Way no 2 ==> _Italics Text_
+2. Way no 2 ==> *Italics Text*
 
 ## To add bold
 
 1. Way no 1 ==> **Bold Text**
 
-2. Way no 2 ==> **Bold Text**
+2. Way no 2 ==> __Bold Text__
 
 ## To add strike-through
 
-~~Strike Text~~
+- ~~Strike Text~~
 
-~~1000~~ 900
+- ~~1000~~ 900
 
 ## To add a website link
+
+``Syntax to add a link ==>
+[Alt Text](https://google.com)
+``
 
 [Visit my website](https://w3schools.com)
 
@@ -92,11 +96,28 @@ Paragraphs in Markdown are the default text layout. If you just type text it wil
 
 ## Lists in markdown
 
-1. List one
-2. List two
-3. List three
-   - List four
-   - List five
+> There are two types of lists. They are:- 
+
+## a) Ordered List
+
+1) List One
+2) List two
+3) List three
+
+## b) Unordered List
+
+- List one
+- List two
+- List three
+
+## 🕸️ Combination of Ordered & Unordered List
+
+1) List One
+2) List Two
+3) List Three
+    - one
+    - two
+    - three
 
 ## Using code in the markdown
 
@@ -329,8 +350,29 @@ markdown example.
 
 ```code
 
+## HTML
+
+<h1>HTML Heading One.</h1>
+
+## JavaScript
+
 console.log("Hello JavScript");
 
+## Python
+
 print("Hello Python");
+
+## CSS
+
+h1{
+  font-weight: 700;
+  font-size: 20px;
+  color: beige;
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  text-transform: uppercase;
+}
 
 ```
