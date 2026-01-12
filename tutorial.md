@@ -381,7 +381,7 @@ h1{
 
 1) This is a footnote[^1].
 
-2) [^1]: Footnote content.
+[^1]: Footnote content.
 
 ## Definition Lists
 
