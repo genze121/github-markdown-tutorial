@@ -387,9 +387,9 @@ h1{
 
 Term 1
 
-:Definition 1
+: Definition 1
 
 Term 2
 
-:Definition 2a  
-:Definition 2b
+: Definition 2a  
+: Definition 2b
