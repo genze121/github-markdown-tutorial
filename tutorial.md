@@ -379,7 +379,7 @@ h1{
 
 ## Footnote
 
-1) This is a footnote[^1].
+This is a footnote[^1].
 
 [^1]: Footnote content.
 
