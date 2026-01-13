@@ -393,3 +393,23 @@ Term 2
 
 : Definition 2a  
 : Definition 2b
+
+## 🧑‍💻 Usage of Mathematical Formulas
+
+1) $E = MC^2$
+
+2) $F = M*A$
+
+3) Area of a circle = $\pi r^2$
+
+4) $x^2$
+
+5) $x^4$
+
+6) $x^{10}$
+
+7) $D = b ^ 2 - 4*a*c$
+
+8) $x_1$ + $y_1$ = $1$
+
+9) $a_{i,j}^{(k)}$
