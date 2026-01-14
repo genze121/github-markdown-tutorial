@@ -1,4 +1,4 @@
-## `Github Markdown Tutorial`
+## 🧑‍💻⚙️ `Github Markdown Tutorial`
 
 ## To add Headings
 
@@ -220,7 +220,7 @@ git logs
   "address": {
     "street": "123 Main St",
     "state": "karnataka",
-    "pincode": 12345
+    "pinCode": 12345
   }
 }
 ```
@@ -413,3 +413,5 @@ Term 2
 8) $x_1$ + $y_1$ = $1$
 
 9) $a_{i,j}^{(k)}$
+
+10) $({a+b})^2$ = $a^2$ + $b^2$ + $2*a*b$
