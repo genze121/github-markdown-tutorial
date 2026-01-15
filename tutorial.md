@@ -375,6 +375,10 @@ h1{
   text-transform: uppercase;
 }
 
+## SQL
+
+select * from world where name = "Hello World";
+
 ```
 
 ## Footnote
