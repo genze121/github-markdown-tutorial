@@ -427,3 +427,9 @@ Term 2
 9) $a_{i,j}^{(k)}$
 
 10) $({a+b})^2$ = $a^2$ + $b^2$ + $2*a*b$
+
+## Table Based Example (New)
+
+| Name | Email | Password | Status |
+|------|-------|----------|--------|
+|Sam Altman| sam@gmail.com| sam123 | - [ x ]|
