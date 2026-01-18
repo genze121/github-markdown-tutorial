@@ -432,4 +432,4 @@ Term 2
 
 | Name | Email | Password | Status |
 |------|-------|----------|--------|
-|Sam Altman| sam@gmail.com| sam123 | - [x]|
+|Sam Altman| sam@gmail.com| sam123 | -[x]|
