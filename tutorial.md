@@ -430,7 +430,8 @@ Term 2
 
 ## Table Based Example (New)
 
-| Name | Email | Password | Status |
-|------|-------|----------|--------|
-|Sam Altman| sam@gmail.com| sam123 | ✅ Completed |
-|Elon Musk| musk@gmail.com| musk123@ | ⌛ WIP |
+| Name     | Email         | Password | Status        |
+|----------|---------------|----------|---------------|
+|Sam Altman| sam@gmail.com | sam123   | ✅ Completed  |
+|Elon Musk | musk@gmail.com| musk123@ | ⌛ WIP        |
+|Python    | python@gmail.com | py@123 | ❌ Not Completed |
