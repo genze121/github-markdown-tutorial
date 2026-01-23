@@ -437,3 +437,4 @@ Term 2
 |Python    | python@gmail.com | py@123 | ❌ Not Completed |
 |Javascript|js@gmail.com   | js@123    | ✅ Completed |
 |Java|java@gmail.com   | java@123@    | ⌛ WIP |
+|AI|ai@gmail.com   | ai@123@    | ❌ Not Completed |
