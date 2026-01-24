@@ -436,3 +436,4 @@ Term 2
 |Elon Musk | musk@gmail.com| musk123@ | ⌛ WIP        |
 |Python    | python@gmail.com | py@123 | ❌ Not Completed |
 |Javascript|js@gmail.com   | js@123    | ✅ Completed |
+|Java|java@gmail.com   | java@123@    | ⌛ WIP |
