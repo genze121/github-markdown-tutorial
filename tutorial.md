@@ -435,3 +435,4 @@ Term 2
 |Sam Altman| sam@gmail.com | sam123   | ✅ Completed  |
 |Elon Musk | musk@gmail.com| musk123@ | ⌛ WIP        |
 |Python    | python@gmail.com | py@123 | ❌ Not Completed |
+|Javascript|js@gmail.com   | js@123    | ✅ Completed |
