@@ -1,4 +1,4 @@
-## Github Markdown Tutorial
+## Github Markdown Mastery
 
 ## To add Headings
 
